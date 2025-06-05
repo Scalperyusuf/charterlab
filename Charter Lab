@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charter Lab</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0a0a0a;
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 4rem 2rem;
+      background-color: #101010;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .section h2 {
+      color: #00ff88;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 400px;
+      margin: 1rem;
+      border-radius: 8px;
+    }
+    .pdf-list a {
+      display: block;
+      margin: 0.5rem 0;
+      color: #00ccff;
+      text-decoration: none;
+    }
+    .video-container iframe {
+      width: 100%;
+      height: 315px;
+      border: none;
+      margin-bottom: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background-color: #101010;
+      color: #666;
+    }
+    .partner {
+      background-color: #111;
+      padding: 2rem;
+      text-align: center;
+    }
+    .partner p {
+      font-size: 1.1rem;
+    }
+    .partner span {
+      color: #00ff88;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Charter Lab</h1>
+    <p>Built for Traders</p>
+  </header>
+
+  <section class="section gallery">
+    <h2>Certificates</h2>
+    <img src="/mnt/data/5K-2.jpg" alt="5K Certificate">
+    <img src="/mnt/data/10K.jpg" alt="10K Certificate">
+    <img src="/mnt/data/20K BOOTCAMP.jpg" alt="5ers Certificate">
+    <img src="/mnt/data/100K.jpg" alt="Blue Guardian Certificate">
+    <img src="/mnt/data/50K-2.png" alt="50K Cert">
+    <img src="/mnt/data/50K-3.png" alt="50K Cert">
+    <img src="/mnt/data/50K-4.png" alt="50K Cert">
+    <img src="/mnt/data/150K.png" alt="150K Cert">
+  </section>
+
+  <section class="section pdf-list">
+    <h2>PDF Library</h2>
+    <a href="/mnt/data/0e23dcc6-0546-4540-aca1-bbdc8f6d661b.pdf" target="_blank">📥 ICT Mentorship - 2022 Entry Model</a>
+  </section>
+
+  <section class="section video-container">
+    <h2>Trading Education</h2>
+    <iframe src="https://www.youtube.com/embed/PukXVPtajBY?start=1282" title="Education Video"></iframe>
+  </section>
+
+  <section class="section partner">
+    <h2>Partner Discount</h2>
+    <p>Get exclusive discounts with code: <span>CHARTER10</span></p>
+    <p>BEM Funding Special Code: <span>Charter</span></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Charter Lab | All rights reserved
+  </footer>
+</body>
+</html>
